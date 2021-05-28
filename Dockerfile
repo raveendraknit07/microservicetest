@@ -1,4 +1,4 @@
-# For Java 8, try this
+# For Java 8, try this jig
 FROM openjdk:8-jdk-alpine
 
 ARG JAR_FILE=target/football-league.jar
@@ -11,3 +11,4 @@ EXPOSE 8085
 
 ENTRYPOINT ["java","-jar","football-league.jar"]
 
+#ENTRYPOINT ["java","-jar","football-league.jar"]
